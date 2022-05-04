@@ -10,7 +10,7 @@ JSON
  7. Добавить файл под гит: 
 	git add new.json
  8. Закоммитить файл:
-	git commit -m "Add ampty"
+	git commit -m "Add empty"
  9. Отправить файл на внешний GitHub репозиторий:
 	git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON:
@@ -28,7 +28,6 @@ JSON
  12. Создать файл preferences.json
 	vim preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
-	vim preferences.json
 {
         "Favorite movie": "The Matrix",
         "Favorite series": "Friends",
@@ -37,7 +36,7 @@ JSON
         "Want to visit": "Brazil"
 }
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-	vim skills.json
+	cat >> skills.json
 {
         "Skills":
         [
@@ -80,7 +79,7 @@ JSON
 	"Result": "The status is not renewed",
 	"Expected result": "The status is renewed"
 }
- 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
 	"New bug" => Commit new file 
  20. Синхронизировать внешний и локальный репозиторий JSON
 	git pull (git fetch - проверить наличие расхождений)
